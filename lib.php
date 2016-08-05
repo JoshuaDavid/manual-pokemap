@@ -9,8 +9,7 @@ function array_get(array $array, $key, $default_value = null) {
 }
 
 function get_config() {
-    $config_file = './config.json';
-    $config = json_decode(file_get_contents('./config.json'), true);
+    $config = require('./config.php');
     return $config;
 }
 

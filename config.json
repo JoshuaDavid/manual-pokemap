@@ -1,9 +1,0 @@
-{
-    "database": {
-        "username": "dbuser",
-        "password": "dbpass",
-        "dbname": "dbname",
-        "host": "dbhost",
-        "port": 3306
-    }
-}
